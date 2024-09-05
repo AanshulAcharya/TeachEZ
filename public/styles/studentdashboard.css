@@ -1,0 +1,207 @@
+/* Your existing CSS code here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1a2a38;
+  }
+
+  .header-left {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+
+  .header-left span {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-right .user-info {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  .header-right .user-info .user-name {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    font-weight: 400;
+  }
+
+  .header-right button.grade-button {
+    padding: 8px 12px;
+    background-color: #f39c12;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .header-right span.grade-year {
+    color: white;
+    padding-left: 10px;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  .subject-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+
+  .subject-section h2 {
+    font-size: 24px;
+    color: #1a2a38;
+    font-weight: 600;
+  }
+
+  .subject-section p {
+    font-size: 18px;
+    color: #555;
+  }
+
+  .subject-section .chart {
+    width: 600px;
+    height: 300px;
+    border: 1px solid #ccc;
+    position: relative;
+    background-color: #fff;
+  }
+
+  .subject-section .chart canvas {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .subject-table, .activities-table, #subject-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .subject-table th, .subject-table td,
+  .activities-table th, .activities-table td,
+  #subject-section table th, #subject-section table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+  }
+
+  .subject-table th, .activities-table th, #subject-section table th {
+    background-color: #1a2a38;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .subject-table tr:hover, .activities-table tr:hover, #subject-section table tr:hover {
+    background-color: #f1f1f1;
+  }
+
+  .subject-table tr:last-child td,
+  .activities-table tr:last-child td,
+  #subject-section table tr:last-child td {
+    border-bottom: none;
+  }
+
+  .subject-table td:first-child,
+  .activities-table td:first-child,
+  #subject-section table td:first-child {
+    font-weight: 500;
+  }
+
+  .subject-table th:first-child,
+  .activities-table th:first-child,
+  #subject-section table th:first-child {
+    border-top-left-radius: 8px;
+  }
+
+  .subject-table th:last-child,
+  .activities-table th:last-child,
+  #subject-section table th:last-child {
+    border-top-right-radius: 8px;
+  }
+
+  .subject-table tr:last-child td:first-child,
+  .activities-table tr:last-child td:first-child,
+  #subject-section table tr:last-child td:first-child {
+    border-bottom-left-radius: 8px;
+  }
+
+  .subject-table tr:last-child td:last-child,
+  .activities-table tr:last-child td:last-child,
+  #subject-section table tr:last-child td:last-child {
+    border-bottom-right-radius: 8px; 
+  }
+
+  #subject-section table {
+    margin: 0 auto;
+  }
+
+  .activities-section {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .performance {
+    width: 600px;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding-left: 40px;
+    border-radius: 10px;
+  }
+
+  .grading-scale {
+    margin-top: 20px;
+  }
+
+  .grading-scale p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #555;
+  }
+
+  .grading-scale h2 {
+    font-size: 24px;
+    color: #1a2a38;
+    font-weight: 600;
+  }
+
+  .scale-item {
+    display: inline-block;
+    margin-right: 10px;
+  }

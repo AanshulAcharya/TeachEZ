@@ -1,0 +1,25 @@
+<%- include("partials/rubricsheader.ejs") %>
+<h1>ESE(60 marks)</h1>
+<table id="rubricTable">
+    <thead>
+        <tr>
+            <th>Roll Number</th>
+            <th>Student Name</th>
+            <th>Marks (Out of 60)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Student rows will be populated here -->
+       
+    </tbody>
+</table>
+
+<!-- Pop-up for errors -->
+<div id="popup" class="popup">
+    <span id="popupMessage"></span>
+    <button onclick="closePopup()">Close</button>
+</div>
+
+<script src="js/ese.js"></script>
+</body>
+</html>
