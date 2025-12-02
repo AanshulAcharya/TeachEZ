@@ -28,4 +28,5 @@ const LoginStudentSchema = new mongoose.Schema({
 //collection part
 const studentCollection = new mongoose.model("users", LoginSchema);
 
+
 module.exports = studentCollection;
